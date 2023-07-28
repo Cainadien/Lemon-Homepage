@@ -20,7 +20,7 @@ h1 {
 
 .top-left {
     position: absolute;
-    top: 8px;
+    top: 4px;
     left: 21%;
     text-align: left;
     font-family: 'Segoe UI', serif;
@@ -48,6 +48,7 @@ nav ul {
     background-color: rgb(65, 64, 64);
     margin-left: 25%;
     margin-right: 25%;
+    border-radius: 80px;
 }
 
 nav li {
@@ -85,9 +86,13 @@ article {
 }
 
 .border {
-    border: 1px solid black;
+  border: black solid 1px;
+    border-radius: 30px;
+
     padding: 15px;
-    
+    margin-right: 3px;
+    margin-left: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif ;   
 }
 
 footer {
