@@ -1,5 +1,5 @@
 body {
-    background-color: #edefee;
+    background-color: #dfd1c0;
     font-family:'Segoe UI', serif;
     margin-top: 3rem;
     margin-bottom: 3rem;
@@ -32,6 +32,7 @@ h1 {
 
 h2 {
     font-size: 2rem;
+    text-align: center;
 }
 
 header > img {
@@ -69,25 +70,35 @@ a{
      font-size: small;
 }
 
+.columns {
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 section {
     display: flex;
 }
+
 article {
     flex: 1;
 }
 
+.border {
+    border: 1px solid black;
+    padding: 15px;
+    
+}
+
 footer {
-display: flex;
-text-align: left;
+    display: flex;
+    text-align: left;
 }
 
 footer div {
     flex: 1;
     text-align: right;
     text-decoration: overline;
-}
-.img {
-    text-align: left;
 }
 
 .hoverable{
