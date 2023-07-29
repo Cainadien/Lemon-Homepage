@@ -8,7 +8,7 @@ $(function(){
         if (i > stop){
           return;
         }
-        $('#len'+(i++)).toggleClass('bounce');
+        $('1len'+(i++)).toggleClass('bounce');
       }, 500)
     });
   });
